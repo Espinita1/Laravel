@@ -8,8 +8,4 @@ use Illuminate\Database\Eloquent\Model;
 class SectionModel extends Model
 {
     protected $table = 't_sections';
-    /*protected $section = [
-        'idSection',
-        'secName',
-    ];*/
 }

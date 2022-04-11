@@ -18,6 +18,7 @@ use App\Http\Controllers\NickNameController;
     return view('welcome');
 });*/
 
-Route::get('/mytestpage', [NickNameController::class, 'index']);
+Route::get('/mytestpage', [NickNameController::class, 'Index', 404]);
 
-Route::get('/mytestpage/{id}', [NickNameController::class, 'shown']);
+Route::get('/post-teacher', [NickNameController::class, 'PostIt', 404]);
+Route::post('/post-teacher', [NickNameController::class, 'TeacherInsert', 404]);
