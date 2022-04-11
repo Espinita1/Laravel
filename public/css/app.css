@@ -4,12 +4,62 @@ body {
 }
 
 #div-wrapping-form-teacher {
-    align-items: center;
     vertical-align: middle;
-    width: 200px;
+    padding: none;
+    width: 50%;
+    margin: auto auto auto auto;
 }
+
+.form-for-teacher{
+    vertical-align: middle;
+    align-content: center;
+}
+
 .divs-inside-form-teacher {
+    vertical-align: middle;
+    margin: 5% 5% 5% 5%;
+    vertical-align: middle;
+}
+
+#txtarea-in-form{
+    max-width: 200px;
+    min-width: 150px;
+    width: 80%;
+    position: sticky;
+    resize: none;
+}
+
+#label-firstname-in-form {
     align-items: center;
-    align-self: center;
-    margin: 10px 10px 10px 10px;
+    margin-right: 40px;
+    font-size: 1rem;
+}
+
+#label-lastname-in-form {
+    align-items: center;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+#label-gender-in-form {
+    align-items: center;
+    margin-right: 88px;
+    font-size: 1rem;
+}
+
+#label-gender-select{
+    width: 60%;
+    max-width: 150px;
+    min-width: 150px;
+    text-align-last: center;
+}
+
+#label-surname-in-form {
+    align-items: center;
+    margin-right: 80px;
+    font-size: 1rem;
+}
+
+#txtarea-in-form {
+    
 }
