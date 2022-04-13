@@ -37,7 +37,7 @@
             </div>
             <div class="divs-inside-form-teacher">
             <label id="label-section-in-form" for="section">Section</label>
-                <select name="section">
+                <select id="label-section-select" name="section">
                 @foreach($arrSections as $section)
                 <option value={{ $section['idSection'] }} > {{ $section['secName']}} </option>
                 @endforeach

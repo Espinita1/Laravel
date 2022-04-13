@@ -4,62 +4,106 @@ body {
 }
 
 #div-wrapping-form-teacher {
-    vertical-align: middle;
-    padding: none;
-    width: 50%;
-    margin: auto auto auto auto;
-}
-
-.form-for-teacher{
-    vertical-align: middle;
-    align-content: center;
+    margin: auto;
+    width: 500px;
 }
 
 .divs-inside-form-teacher {
-    vertical-align: middle;
-    margin: 5% 5% 5% 5%;
-    vertical-align: middle;
-}
-
-#txtarea-in-form{
-    max-width: 200px;
-    min-width: 150px;
-    width: 80%;
-    position: sticky;
-    resize: none;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #label-firstname-in-form {
-    align-items: center;
-    margin-right: 40px;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 0px;
 }
 
 #label-lastname-in-form {
-    align-items: center;
-    margin-right: 10px;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 #label-gender-in-form {
-    align-items: center;
-    margin-right: 88px;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 #label-gender-select{
-    width: 60%;
-    max-width: 150px;
-    min-width: 150px;
+    width: 90%;
     text-align-last: center;
 }
 
 #label-surname-in-form {
-    align-items: center;
-    margin-right: 80px;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
-#txtarea-in-form {
-    
+#label-section-in-form {
+    font-size: 1.5rem;
 }
+
+#label-section-select {
+    width: 90%;
+
+    text-align-last: center;
+}
+
+#txtarea-in-form{
+    width: 88%;
+}
+form div input{
+    width: 89%;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media only screen and (max-width: 768px){
+    #div-wrapping-form-teacher {
+        margin: auto;
+        width: 100%;
+    }
+    
+    .divs-inside-form-teacher {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    #label-firstname-in-form {
+        font-size: 1.5rem;
+        margin: 0;
+        padding: 0px;
+    }
+    
+    #label-lastname-in-form {
+        font-size: 1.5rem;
+    }
+    
+    #label-gender-in-form {
+        font-size: 1.5rem;
+    }
+    
+    #label-gender-select{
+        width: 90%;
+        text-align-last: center;
+    }
+    
+    #label-surname-in-form {
+        font-size: 1.5rem;
+    }
+    
+    #label-section-in-form {
+        font-size: 1.5rem;
+    }
+    
+    #label-section-select {
+        width: 90%;
+    
+        text-align-last: center;
+    }
+    
+    #txtarea-in-form{
+        width: 88%;
+    }
+    form div input{
+        width: 89%;
+        padding: 0px;
+        margin: 0px;
+    }
