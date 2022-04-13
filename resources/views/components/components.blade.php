@@ -10,7 +10,7 @@
 
 <div>
     <!-- People find pleasure in different ways. I find it in keeping my mind clear. - Marcus Aurelius A -->
-    L'heure est {{ date('l, g:i:s') }}
+    L'heure est {{ date('l, H:i:s') }}
     <br>
     Le contenu du tableau est {{ $slot }}
 </div>
